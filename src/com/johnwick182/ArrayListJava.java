@@ -10,6 +10,7 @@ public class ArrayListJava {
         name.add("Shaggy");
         name.add("Lucifer");
 
+
         for (String str: name) {
             System.out.println(name);
         }
