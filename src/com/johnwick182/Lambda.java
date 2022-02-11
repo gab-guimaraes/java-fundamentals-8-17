@@ -38,6 +38,8 @@ public class Lambda {
                 .filter(value -> value > 17)
                 .forEach(System.out::println);
 
+        System.out.println(IntStream.of(values).summaryStatistics());
+
 
 
     }
